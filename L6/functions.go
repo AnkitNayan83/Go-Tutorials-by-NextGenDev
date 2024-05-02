@@ -34,7 +34,7 @@ func HOF(a,b int, func1 DivFunc) float64 {
 }
 
 func div(a,b int) float64 {
-	return float64(a/b)
+	return float64(a)/float64(b)
 }
 
 func main() {
